@@ -1,6 +1,6 @@
 package com.iesvirgendelcarmen.herencia.teoria;
 
-public class TrianguloEquilatero extends Triangulo {
+public final class TrianguloEquilatero extends Triangulo { // se puede declarar final porque no hay ninguna clase que vaya a heredar de ella
 
 	private float lado;
 
